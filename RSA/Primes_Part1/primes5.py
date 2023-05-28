@@ -42,3 +42,5 @@ phi_n = 1
 for i in primes:
     phi_n *= (i-1) 
 print(long_to_bytes(pow(ct,pow(e,-1,phi_n),n)))
+
+# crypto{700_m4ny_5m4ll_f4c70r5}
