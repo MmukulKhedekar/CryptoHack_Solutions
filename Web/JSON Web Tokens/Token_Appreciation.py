@@ -3,5 +3,3 @@ encoded = "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJmbGFnIjoiY3J5cHRve2p3dF9jb250
 print(jwt.decode(encoded, options={"verify_signature":False}))
 
 ## crypto{jwt_contents_can_be_easily_viewed}
-
-## im just testing something out 
