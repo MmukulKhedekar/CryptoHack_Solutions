@@ -1,5 +1,5 @@
 from pwn import *
-from Cryptodome.Util.number import *
+from Crypto.Util.number import *
 r = remote('socket.cryptohack.org', 13374)
 print(r.recvline())
 r.sendline(b'{"option": "get_secret"}')
